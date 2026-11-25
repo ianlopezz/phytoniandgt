@@ -3,17 +3,12 @@
 Dashboard académico con Flask, Jinja, pandas y Matplotlib. Las filas corresponden a accidentes con víctimas notificadas, no al total de siniestros de tráfico.
 
 ## Puesta en marcha
-
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-python convertir_datos.py
 python app.py
 ```
 
-Después, abre http://127.0.0.1:5000.
+Después http://127.0.0.1:5000.
+## LINK DE RENDER
+https://dgtdatos.onrender.com/
 
 El libro XLSX oficial y el diccionario se guardan en `data/`. El CSV simplificado del dashboard se regenera con `convertir_datos.py`.
 
